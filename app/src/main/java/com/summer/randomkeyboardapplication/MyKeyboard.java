@@ -487,9 +487,7 @@ public class MyKeyboard extends EditText implements OnKeyboardActionListener {
             if (label != null && isNumber(label.toString())) {
                 newkeyList.add(key);
             }
-            if (label != null && isword(label.toString())) {
-                newkeyList.add(key);
-            }
+
         }
 
         int count = newkeyList.size();
